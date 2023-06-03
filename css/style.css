@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.titulos{
+    background-color: #D7CF1D;
+    height: 100px;
+  
+}
+
+.titulos div h1{
+    font-size: 25px;
+}
+
+
+
+.logo{
+    display: flex;
+    background-color: #D7CF1D  ;
+}
+
+.logo img{
+    height: 100px;
+}
+
+p{
+    display: inline-block;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D7CF1D;
+    height: 100px;
+}
+
+.Marina{
+    background-color: #D7CF1D;
+    padding-top: 32px;
+    height: 5px;
+}
+
+
+
+nav ul{
+    
+    display: flex;
+    list-style: none;   
+    gap: 20px;
+    text-decoration: none;              
+    padding-top: 40px;
+    padding-right: 15px;
+    font-size: 25px;
+    
+
+        
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+
+nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    background-color: #D7CF1D;   
+    
+    
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.mainindex{
+    height: 800px;
+    background-image: url(../assets/img/salon-eventos-campestres.jpg);
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+ 
+.imagenfondo{
+    width: 1000px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 20px;
+    
+}
+
+
+
+
+.imagenfondo p{
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 5px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-self: center;
+}
+
+
+
+
+
+h1 {
+    background-color: #D7CF1D;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    height: 10px;
+    padding-top: 30px;
+    background-color: rgb(224, 20, 20);
+    
+    gap: 20px
+    
+    
+}
+h3{
+    border: black;
+    padding: 20px 40px;
+}
+
+h4{
+    border: black;
+    padding: 20px 40px;
+}
+
+p{
+    border: black;
+    padding: 20px 40px;
+}
+
+article {
+    padding: 40px 60px;
+
+}
+
+.secondpage{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 500px 500px repeat(4, 1fr);
+    gap: 5px;
+}
+
+.secondpage h2{
+    grid-column-start: 1; 
+    grid-column-end: 13;
+   
+}
+
+.secondpage h3{
+    grid-column-start:1;
+    grid-row-start: 2;
+    font-size: 22px;
+    
+}
+
+.secondpage .imagen1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2; 
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.secondpage p{
+    grid-column-start: 7; 
+    grid-column-end: 10;
+    grid-row-start: 2;
+    font-size: 25px;
+    align-self: center;
+}
+
+.secondpage .boton1{
+    grid-column-start: 10; 
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 50px;
+    align-self: end;
+}
+
+.secondpage h4{
+    grid-row-start: 3; 
+    align-self:normal;  
+    font-size: 22px;  
+}
+
+.secondpage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2; 
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.secondpage article{
+    grid-column-start: 7; 
+    grid-column-end: 11;
+    grid-row-start: 3;
+    font-size: 25px;
+    align-self: center;
+   
+}
+
+.secondpage button{
+    grid-column-start: 10; 
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 50px;
+    align-self: end;
+}
+
+.deco{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 500px 500px repeat(4, 1fr);
+    gap: 5px;
+}
+
+.deco h2{
+    grid-column-start: 1; 
+    grid-column-end: 13;
+       
+}
+
+.deco h3{
+    grid-column-start:1;
+    grid-row-start: 2;
+    font-size: 22px;
+}
+
+.deco .imagen2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2; 
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.deco p{
+    grid-column-start: 7; 
+    grid-column-end: 10;
+    grid-row-start: 2;
+    font-size: 25px;
+    align-self: center;
+}
+
+.deco .boton2{
+    grid-column-start: 10; 
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 50px;
+    align-self: end;
+    
+}
+
+.deco h4{
+    grid-row-start: 3; 
+    align-self:normal;  
+    font-size: 22px;
+}
+
+.deco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2; 
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+
+.deco article{
+    grid-column-start: 7; 
+    grid-column-end: 11;
+    grid-row-start: 3;
+    font-size: 25px;
+    align-self: center;
+
+}
+
+.deco button{
+    grid-column-start: 10; 
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 50px;
+    align-self: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 35px;
+    width: 100%;
+    background-color: #D7CF1D;
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer div img{
+    height: 24px;
+}
+
+footer a:hover{
+    color:white;
+}
+
+/* EVENTOS */
+
+@media (max-width: 1024px){
+    nav ul{
+        font-size: 22px ;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        width: 100%;
+        flex-direction: column;
+                
+    }
+    nav ul{
+        
+        width: 100%;
+        justify-content: center;
+    }
+
+    .secondpage p{
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        padding: 0;
+    }
+
+    .secondpage article{
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        padding: 0;
+    }
+
+    .secondpage .boton1{
+        grid-column-start: 10;
+        grid-column-end: 12;
+    }
+
+    .secondpage button{
+        grid-column-start: 10;
+        grid-column-end: 12;
+    }
+
+}
+
+
+
+@media (max-width: 425px){
+    header{
+        width: 153%;
+        flex-direction: column;
+        
+                
+    }
+    nav ul{
+        width: 100%;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .secondpage{
+        grid-template-columns:  100px 100px 100px 100px 100px 100px;
+        grid-template-rows: 35px 200px 200px 200px 166px 166px 166px;
+    }
+
+    
+
+    .secondpage h2{
+        grid-column-start: 1;
+        grid-column-end:11;
+        align-items: end;
+                
+    }
+
+    .secondpage .imagen1{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        height: 200px;
+        width: 150px;
+        object-fit: cover;
+        align-self: center;
+    }
+    
+    .secondpage img{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 8;
+        
+        height: 200px;
+        width: 150px;
+        align-self: center;
+    }
+
+    .secondpage h3{
+        grid-row-start: 2;
+        align-self: center;
+        
+    }
+
+    .secondpage h4{
+        grid-row-start: 4;
+        align-self: center;
+        
+    }
+
+    .secondpage p{
+        grid-column-start: 4;
+        grid-column-end: 9;
+        grid-row-start: 3;
+    }
+
+    .secondpage article{
+        grid-column-start: 4;
+        grid-column-end: 9;
+        grid-row-start: 5;
+    }
+
+    .secondpage .boton1{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+    }
+
+    .secondpage button{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 6;
+    }
+    
+    footer{
+     width: 153%;
+    
+}
+}
+
+
+/* decoraciones */
+
+@media (max-width: 1024px){
+    nav ul{
+        font-size: 22px ;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        width: 100%;
+        flex-direction: column;
+                
+    }
+    nav ul{
+        
+        width: 100%;
+        justify-content: center;
+    }
+
+    .deco p{
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        padding: 0;
+    }
+
+    .deco article{
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        padding: 0;
+    }
+
+    .deco .boton1{
+        grid-column-start: 10;
+        grid-column-end: 12;
+    }
+
+    .deco button{
+        grid-column-start: 10;
+        grid-column-end: 12;
+    }
+
+}
+
+
+
+@media (max-width: 425px){
+    header{
+        width: 153%;
+        flex-direction: column;
+        
+                
+    }
+    nav ul{
+        width: 100%;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .deco{
+        grid-template-columns:  100px 100px 100px 100px 100px 100px;
+        grid-template-rows: 35px 200px 200px 200px 166px 166px 166px;
+    }
+
+    
+
+    .deco h2{
+        grid-column-start: 1;
+        grid-column-end:11;
+        align-items: end;
+                
+    }
+
+    .deco .imagen2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        height: 200px;
+        width: 150px;
+        object-fit: cover;
+        align-self: center;
+    }
+    
+    .deco img{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 8;
+        
+        height: 200px;
+        width: 150px;
+        align-self: center;
+    }
+
+    .deco h3{
+        grid-row-start: 2;
+        align-self: center;
+        
+    }
+
+    .deco h4{
+        grid-row-start: 4;
+        align-self: center;
+        
+    }
+
+    .deco p{
+        grid-column-start: 4;
+        grid-column-end: 9;
+        grid-row-start: 3;
+    }
+
+    .deco article{
+        grid-column-start: 4;
+        grid-column-end: 9;
+        grid-row-start: 5;
+    }
+
+    .deco .boton2{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+    }
+
+    .deco button{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 6;
+    }
+    
+    footer{
+     width: 153%;
+    
+}
+}  
+
+    
+
+
